@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ace/sw/macrobinoculars_d"
+	"$bumpmap" "models/ace/sw/macrobinoculars_n"
+	"$nodecal" 1
+}
