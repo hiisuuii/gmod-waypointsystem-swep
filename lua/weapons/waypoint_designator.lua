@@ -118,7 +118,7 @@ function SWEP:SecondaryAttack()
 		if not(zoomed) then
 			if(IsFirstTimePredicted()) then
 			//if CLIENT then
-				self.Owner:SetFOV(30,0.3)
+				self.Owner:SetFOV(20,0.3)
 			//end
 			zoomed = true
 			end
@@ -145,7 +145,7 @@ function SWEP:AdjustMouseSensitivity()
      
 	//if self.Owner:KeyDown(IN_ATTACK2) then
 	if(zoomed) then
-       	return 0.25
+       	return 0.2
    	else 
    	 	return 1
    	end

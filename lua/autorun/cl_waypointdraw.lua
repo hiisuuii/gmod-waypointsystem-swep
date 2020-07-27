@@ -54,7 +54,7 @@ hook.Add("HUDPaint", "DrawWaypoints", function ()
 			surface.DrawPoly(border)
 			surface.SetDrawColor(colors[v:GetColorType()])
 			surface.DrawPoly(diamond)
-			draw.SimpleTextOutlined(v:GetWaypointName(), "WaypointMarkerFont", point2D.x, point2D.y + -16-(1*scale), Color(255,255,255,fade),TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER, 1, Color(0,0,0,fade))
+			draw.SimpleText(v:GetWaypointName(), "WaypointMarkerFont", point2D.x, point2D.y + -16-(1*scale), Color(255,255,255,fade),TEXT_ALIGN_CENTER,TEXT_ALIGN_CENTER)
 
 		end
 
